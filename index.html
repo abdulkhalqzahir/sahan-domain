@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستەمی کۆمپانیا</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <h1>سیستەمی قوتابیانی ژمێریای قۆناغی دووەم</h1>
+    <form id="employeeForm">
+        <label for="name">ناو:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="id">ژمارەی کارمەند:</label>
+        <input type="text" id="id" name="id" required>
+
+        <label for="department">بەش:</label>
+        <input type="text" id="department" name="department" required>
+
+        <label for="salary">مووچە:</label>
+        <input type="number" id="salary" name="salary" required>
+
+        <button type="submit">تۆمارکردن</button>
+    </form>
+
+    <h5>--------</h5>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>ناو</th>
+                <th>ژمارەی مۆبایل</th>
+                <th>بەش</th>
+                <th>دەرەجە</th>
+                <th>کردارەکان</th> <!-- ستوونی نوێ بۆ دوگمەی سڕینەوە -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- لیستی کارمەندەکان لێرە دەخرێتە ڕوو -->
+        </tbody>
+    </table>
+
+    <script src="un.js"></script>
+</body>
+</html>
